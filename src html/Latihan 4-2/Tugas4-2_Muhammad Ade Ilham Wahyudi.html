@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Form Pendaftaran</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="table.css">
+    <style>
+        table {
+			margin: 0 auto; 
+		}
+    </style>
+</head>
+<body>
+    <h1>Form Pendaftaran Mahasiswa Baru</h1>
+    <table rule="none" border="3"width="90%" height="1px">
+        <thead style="background-color: aqua;">
+            <tr>
+                <th colspan="2"><h4><b>Formulir Pendaftaran</b></h4></th>
+            </tr>
+        </thead>
+        <tfoot style="background-color: aqua;">
+            <tr>
+                <th colspan="2">&copy;Hoyovers</th>
+            </tr>
+        </tfoot>
+            <form action="" method="post"></form>
+                <tr colspan="2">                
+                    <td width="20%">
+                        <label for="nomor">Nomor Pendaftaran</label>
+                    </td>
+                    <td width="80%">
+                        :  <input type="text" name="nomor" placeholder="nomor Pendaftaran"  id="nomor" value="TA04042022" readonly size="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nama">Nama</label>
+                    </td>
+                    <td>
+                        :  <input type="text" name="nama" placeholder="masukkan nama" id="nama" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        :  <input type="text" name="email" placeholder="masukkan email" id="email" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        :  <input type="password" name="password" placeholder="masukkan password" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tgl_lahir">Tanggal Lahir</label>
+                    </td>
+                    <td>
+                        :  <input type="date" name="tgl_lahir" id="tgl_lahir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tempat-lahir">Tempat Lahir</label>
+                    </td>
+                    <td>
+                        :  <input type="text" name="tempat-lahir" aria-placeholder="masukkan tempat lahir" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jenis-kelamin">Jenis Kelamin</label>
+                    </td>
+                    <td>
+                        :  <input type="radio" name="jenis-kelamin" value="Laki-Laki" id="jenis-kelamin">Laki-Laki
+                        <input type="radio" name="jenis-kelamin" value="Perempuan" id="jenis-kelamin">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Alamat">Alamat</label>
+                        
+                    </td>
+                    <td>
+                        :  <textarea name="Alamat" id="Alamat" cols="30" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Jurusan">Jurusan</label>
+                    </td>
+                    <td>
+                        :  <select name="Jurusan" id="jurusan">
+                            <option value="teknik-informatika">teknik-informatika</option>
+                            <option value="teknik-komputer">teknik-komputer</option>
+                            <option value="teknologi-informasi">teknologi-informasi</option>
+                            <option value="Bahasa Inggris">Bahasa Inggris</option>
+                            <option value="teknik-mesin">teknik-mesin</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="Kirim" value="Kirim">
+                        <input type="reset" name="Batal" value="Batal">
+                    </td>
+                </tr>
+            </form>
+    </table> <br><br>
+    <a class="btn btn-success" href="../../Tugas5_Muhammad Ade Ilham Wahyudi.HTML#form" role="button">Kembali Ke Home</a>
+</body>
+</html>
